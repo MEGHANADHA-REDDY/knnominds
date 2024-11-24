@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - Seedbed Infrastructure</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="top-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i data-lucide="phone"></i>
+                        <span>+91 98765 43210</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <span>info@seedbedinfra.com</span>
+                    </div>
+                </div>
+                <div class="location">
+                    <i data-lucide="map-pin"></i>
+                    <span>Mumbai, India</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <i data-lucide="building-2"></i>
+                    <span>Seedbed Infra</span>
+                </div>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="projects.html" class="active">Projects</a>
+                    <a href="#">Contact</a>
+                </div>
+                <button class="btn-primary">Get Quote</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Our Projects</h1>
+                <p>Discover our portfolio of successful projects and ongoing developments</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Categories -->
+    <section class="project-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ongoing">Ongoing</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+                <button class="filter-btn" data-filter="upcoming">Upcoming</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-showcase">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Ongoing Projects -->
+                <div class="project-card" data-category="ongoing">
+                    <img src="https://images.unsplash.com/photo-1590644365607-1c5a0c82f6b5?auto=format&fit=crop&q=80" alt="Luxury Apartments">
+                    <div class="project-info">
+                        <span class="project-status ongoing">Ongoing</span>
+                        <h3>Luxury Apartments</h3>
+                        <p class="location"><i data-lucide="map-pin"></i> Mumbai Central</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <span class="label">Area</span>
+                                <span class="value">50,000 sq.ft</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Units</span>
+                                <span class="value">120</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Completion</span>
+                                <span class="value">2024</span>
+                            </div>
+                        </div>
+                        <button class="btn-primary">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Completed Projects -->
+                <div class="project-card" data-category="completed">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80" alt="Commercial Complex">
+                    <div class="project-info">
+                        <span class="project-status completed">Completed</span>
+                        <h3>Commercial Complex</h3>
+                        <p class="location"><i data-lucide="map-pin"></i> Bandra West</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <span class="label">Area</span>
+                                <span class="value">75,000 sq.ft</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Offices</span>
+                                <span class="value">45</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Completed</span>
+                                <span class="value">2023</span>
+                            </div>
+                        </div>
+                        <button class="btn-primary">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Upcoming Projects -->
+                <div class="project-card" data-category="upcoming">
+                    <img src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?auto=format&fit=crop&q=80" alt="Smart Township">
+                    <div class="project-info">
+                        <span class="project-status upcoming">Upcoming</span>
+                        <h3>Smart Township</h3>
+                        <p class="location"><i data-lucide="map-pin"></i> Navi Mumbai</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <span class="label">Area</span>
+                                <span class="value">100 acres</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Units</span>
+                                <span class="value">500+</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Launch</span>
+                                <span class="value">2024</span>
+                            </div>
+                        </div>
+                        <button class="btn-primary">View Details</button>
+                    </div>
+                </div>
+
+                <!-- More Project Cards -->
+                <div class="project-card" data-category="ongoing">
+                    <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&q=80" alt="Green Office Park">
+                    <div class="project-info">
+                        <span class="project-status ongoing">Ongoing</span>
+                        <h3>Green Office Park</h3>
+                        <p class="location"><i data-lucide="map-pin"></i> Powai</p>
+                        <div class="project-details">
+                            <div class="detail">
+                                <span class="label">Area</span>
+                                <span class="value">80,000 sq.ft</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Buildings</span>
+                                <span class="value">3</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Completion</span>
+                                <span class="value">2025</span>
+                            </div>
+                        </div>
+                        <button class="btn-primary">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i data-lucide="building-2"></i>
+                        <span>Seedbed Infra</span>
+                    </div>
+                    <p>Building excellence through innovation and expertise in construction and infrastructure development.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Construction</a></li>
+                        <li><a href="#">Renovation</a></li>
+                        <li><a href="#">Architecture</a></li>
+                        <li><a href="#">Interior Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>Mumbai, Maharashtra, India</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <span>+91 98765 43210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <span>info@seedbedinfra.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Seedbed Infrastructure Pvt Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
